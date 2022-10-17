@@ -15,6 +15,9 @@ header{
     background-size: cover;
     height: 26rem;
 }
+.bg-color-grey{
+    background-color: grey;
+}
 nav.main-nav{
     width: 70%;
     height: 5rem;
@@ -32,10 +35,12 @@ button.light-button{
     border: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
-.main-header{
+section.main-header{
     width: 50%;
     height: 20rem;
-    margin-bottom: 4rem;
+    background-color: fuchsia;
+
+    margin-bottom: 2rem;
 }
 section.box-section{
     width: 100%;
@@ -44,18 +49,24 @@ section.box-section{
     justify-content: center;
     align-items: center;
 }
+
 div.box{
     width: 70%;
     height: 25rem;
+    border: 1px solid red;
     display: flex;
 }
-img.box-img{
+
+div.box-img{
     width: 65%;
     height: 100%;
+    background-color: blue;
 }
-p.box-text{
+
+div.box-text{
     width: 35%;
     height: 100%;
+    background-color: pink;
 }
 section.last-box-section{
     width: 100%;
@@ -68,6 +79,9 @@ div.last-box-box{
     width: 70%;
     height: 30rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
 }
 footer{
     display: flex;
@@ -81,7 +95,17 @@ section.main-footer{
     width: 70%;
     height: 25rem;
     display: flex;
-
+}
+div.big-link{
+    width: 30%;
+    height: 100%;
+    background-color: salmon;
+}
+div.small-link{
+    width: calc(70% / 4);
+    height: 100%;
+    background-color: #206694;
+    border: 1px solid red;
 }
 hr{
     width: 70%;
@@ -95,6 +119,7 @@ section.end-footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: aquamarine;
 }
 button.blue-button{
     border-radius: 16px;
