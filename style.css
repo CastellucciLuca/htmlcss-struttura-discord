@@ -25,6 +25,8 @@ nav.main-nav{
     margin: 0.5rem 0 3rem 0;
     justify-content: space-between;
     align-items: center;
+    background-color: yellow;
+    border: 1px solid black;
 }
 ul li{
     display: inline;
