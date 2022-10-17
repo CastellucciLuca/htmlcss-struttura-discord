@@ -6,6 +6,61 @@
 a{
     display: inline-block;
 }
-.hero{
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background: url("img/jumbo.png") center;
     background-size: cover;
+    height: 26rem;
+}
+nav.main-nav{
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    margin: 0.5rem 0 4rem 0;
+    justify-content: space-between;
+    align-items: flex;
+}
+ul li{
+    display: inline-block;
+    
+}
+.main-header{
+    width: 50%;
+    height: 20rem;
+    margin-bottom: 4rem;
+}
+section.box-section{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.box{
+    width: 70%;
+    height: 25rem;
+    display: flex;
+}
+img.box-img{
+    width: 65%;
+    height: 100%;
+}
+p.box-text{
+    width: 35%;
+    height: 100%;
+}
+section.last-box-section{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.last-box-box{
+    width: 70%;
+    height: 30rem;
+    display: flex;
+}
