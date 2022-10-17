@@ -23,23 +23,26 @@ a{
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    width: 12.4rem;
-    display: flex;
-}
 .nav-list{
     color: white;
 }
 .login-button{
     display:flex;
-    align-items: center;
 }
 .light{
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding: 0.7rem 1.6rem;
     border-radius: 4rem;
     background-color: white;
 }
 .row{
-
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style:none;
+}
+.row-container{
+    display: flex;
+    align-items: center;
 }
