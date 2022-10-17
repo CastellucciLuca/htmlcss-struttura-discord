@@ -25,7 +25,12 @@ nav.main-nav{
 }
 ul li{
     display: inline;
-    
+    color: white;    
+}
+button.light-button{
+    border-radius: 16px;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 .main-header{
     width: 50%;
@@ -81,7 +86,8 @@ section.main-footer{
 hr{
     width: 70%;
     height: .5px;
-    background-color: aquamarine;
+    background-color: #206694;
+    border: none;
 }
 section.end-footer{
     width: 70%;
@@ -89,4 +95,11 @@ section.end-footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+button.blue-button{
+    border-radius: 16px;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #206694;
+    color: white;
 }
