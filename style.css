@@ -95,6 +95,7 @@ section.main-footer{
     width: 70%;
     height: 25rem;
     display: flex;
+    margin: 2rem 0;
 }
 div.big-link{
     width: 30%;
@@ -120,6 +121,7 @@ section.end-footer{
     align-items: center;
     justify-content: space-between;
     background-color: aquamarine;
+    margin: 1rem 0 3rem 0;
 }
 button.blue-button{
     border-radius: 16px;
