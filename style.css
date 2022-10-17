@@ -26,7 +26,7 @@ nav.main-nav{
     justify-content: space-between;
     align-items: center;
     background-color: yellow;
-    border: 1px solid black;
+    border: 1px solid red;;
 }
 ul li{
     display: inline;
@@ -41,6 +41,7 @@ section.main-header{
     width: 50%;
     height: 20rem;
     background-color: fuchsia;
+    border: 1px solid red;
 
     margin-bottom: 2rem;
 }
@@ -84,6 +85,7 @@ div.last-box-box{
     justify-content: center;
     align-items: center;
     background-color: green;
+    border: 1px solid red;
 }
 footer{
     display: flex;
@@ -103,6 +105,7 @@ div.big-link{
     width: 30%;
     height: 100%;
     background-color: salmon;
+    border: 1px solid red;
 }
 div.small-link{
     width: calc(70% / 4);
@@ -124,6 +127,7 @@ section.end-footer{
     justify-content: space-between;
     background-color: aquamarine;
     margin: 1rem 0 3rem 0;
+    border: 1px solid red;
 }
 button.blue-button{
     border-radius: 16px;
